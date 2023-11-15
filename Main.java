@@ -29,20 +29,20 @@ public class Main {
             switch (op) {
                 case 1:
                     n3 = n1 + n2;
-                    System.out.println("Addition of " + n1 +" and" + n2 +" is "+ n3);
+                    System.out.println("Addition of " + n1 +" + " + n2 +" is "+ n3);
                     break;
                 case 2:
                     n3 = n1 - n2;
-                    System.out.println("Subtraction of " + n1 +" and" + n2 +" is " + n3);
+                    System.out.println("Subtraction of " + n1 +" - " + n2 +" is " + n3);
                     break;
                 case 3:
                     n3 = n1 * n2;
-                    System.out.println("Multiplication of " + n1 +" and" + n2 +" is " + n3);
+                    System.out.println("Multiplication of " + n1 +" * " + n2 +" is " + n3);
                     break;
                 case 4:
                     if (n2 != 0) {
                         n3 = n1 / n2;
-                        System.out.println("Division of " + n1 + " and " + n2 +" is " + n3);
+                        System.out.println("Division of " + n1 + " / " + n2 +" is " + n3);
                     } else {
                         System.out.println("Error: Division by zero.");
                     }
@@ -51,19 +51,3 @@ public class Main {
                     System.out.println("Invalid choice. Please try again.");
             }
         }
-        /*System.out.println("Do you want to continue?<1/0>");
-        isCalc = input.nextBoolean();
-        input.close();*/
-    }
-}
-
-    /*static int getNumber(int n1,int n2) {
-        Scanner input = new Scanner(System.in);
-        int answer;
-
-        answer=n1+n2;
-        return answer;
-    }
-    class getNumbers{
-        int n1,n2;
-        public string*/
